@@ -18,6 +18,8 @@ read the warning in the env file.
 1. clone this whole repository: `git clone https://github.com/wger-project/docker.git`
 1. start the containers: `docker compose up -d` 
 1. setup offline mode storage: `docker compose exec web ./manage.py setup-powersync-storage`
+1. Consult <https://wger.readthedocs.io/en/latest/administration/sync-data.html> for infos
+   on how to sync the ingredient dataset
 
 For more details, consult the documentation (and the config files):
 
