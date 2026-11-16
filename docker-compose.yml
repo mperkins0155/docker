@@ -97,6 +97,7 @@ services:
     env_file:
       - ./config/prod.env
     volumes:
+      - static:/home/wger/static:ro
       - media:/home/wger/media
     depends_on:
       web:
